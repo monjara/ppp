@@ -2,12 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   RouterProvider,
-  createBrowserRouter
+  createHashRouter
 } from 'react-router-dom'
 
 import RootRoutes from './features/root/RootRoutes'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '*',
     element: <RootRoutes />
