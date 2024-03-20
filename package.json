@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "clean": "vite clean",
     "preview": "vite preview",
     "lint": "eslint --fix --ext .js,.jsx src"
   },
