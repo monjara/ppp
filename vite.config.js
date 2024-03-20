@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   root: 'src',
+  base: '/ppp/',
   server: {
     port: 8080,
     host: true
@@ -12,10 +13,9 @@ export default defineConfig({
   envDir: '../',
   resolve: {
     alias: {
-      './runtimeConfig': './runtimeConfig.browser',
+      './runtimeConfig': './runtimeConfig.browser'
     }
   },
   define: {
-  },
+  }
 })
-
