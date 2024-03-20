@@ -5,15 +5,19 @@ import {
   createHashRouter
 } from 'react-router-dom'
 
-import RootRoutes from './features/root/RootRoutes'
+import Top from './features/top'
+import Cpcp from './features/cpcp'
 
 const router = createHashRouter([
   {
-    path: '*',
-    element: <RootRoutes />
+    path: '/',
+    element: <Top />
+  },
+  {
+    path: 'cpcp',
+    element: <Cpcp />
   }
-], {
-})
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
