@@ -2,6 +2,7 @@
   "name": "rr",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://monjara.github.io/ppp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
