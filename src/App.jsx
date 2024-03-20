@@ -13,7 +13,6 @@ const router = createBrowserRouter([
     element: <RootRoutes />
   }
 ], {
-  basename: process.env.PUBLIC_URL
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
